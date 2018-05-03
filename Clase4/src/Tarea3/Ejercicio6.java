@@ -4,13 +4,15 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Ejercicio6 {
+	private static Scanner in;
+
 	public static void main(String[] args) { 
 		Random random = new Random();
 		int number = random.nextInt(100) + 1;
 		//System.out.println(number);
 		
 		int guess;
-		Scanner in = new Scanner(System.in);
+		in = new Scanner(System.in);
 		
 		// prompt the user and get the value
 		System.out.println("I'm thinking of a number between 1 and 100");

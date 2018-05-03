@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class Fibonacci_Concha {
 
+	private static Scanner in;
+
 	public static void main(String[] args) {
 		int numero;
-		Scanner in = new Scanner(System.in);
+		in = new Scanner(System.in);
 		
 		System.out.print("Ingresevalor a calcular: ");
 		numero = in.nextInt();
